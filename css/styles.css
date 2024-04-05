@@ -124,7 +124,7 @@ img {
 .twitch:focus,
 .twitch:hover,
 .twitch:active {
-  background-color: purple;
+  background-color: #6441a5;
 }
 
 .twitch-img {
@@ -275,7 +275,7 @@ img {
 
 .build-list-img {
   width: 34px;
-  height: 33px;
+  height: 30px;
   border: 1px solid black;
   border-radius: 90px;
 }
