@@ -156,6 +156,8 @@ img {
 .main-title {
   padding-top: 40px;
   padding-bottom: 40px;
+  border: 1px solid orange;
+  border-radius: 10px;
 }
 .heroes {
   font-weight: 700;
@@ -164,7 +166,7 @@ img {
   letter-spacing: -0.03em;
   color: #fff;
   margin: 0 auto;
-  max-width: 70px;
+
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   margin-top: 24px;
@@ -200,14 +202,60 @@ img {
   background: rgb(31, 31, 31);
 }
 
-.hero-logo-img {
+.hero-logo-img-uni {
   margin: 0 auto;
 
   display: flex;
   border: 1px solid black;
   align-items: center;
   border-radius: 30px;
-  background: linear-gradient(to right, rgb(28, 28, 73), rgb(104, 73, 15));
+  background: linear-gradient(
+    to left,
+    rgba(85, 57, 112, 0.575),
+    rgba(29, 24, 34, 0.575)
+  );
+}
+
+.hero-logo-img-str {
+  margin: 0 auto;
+
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  border-radius: 30px;
+  background: linear-gradient(
+    to left,
+    rgba(138, 51, 51, 0.505),
+    rgba(53, 20, 20, 0.505)
+  );
+}
+
+.hero-logo-img-agl {
+  margin: 0 auto;
+
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  border-radius: 30px;
+  background: linear-gradient(
+    to left,
+    rgba(63, 138, 85, 0.505),
+    rgba(21, 51, 27, 0.505)
+  );
+}
+
+.hero-logo-img-int {
+  margin: 0 auto;
+
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  border-radius: 30px;
+  background: linear-gradient(
+    to left,
+    rgba(74, 131, 177, 0.505),
+    rgba(58, 65, 122, 0.505)
+  );
 }
 
 .hero-subtitle {
@@ -292,4 +340,21 @@ img {
 }
 
 .ebuild-list-img {
+}
+
+.footer {
+  background: linear-gradient(
+    to right,
+    rgba(28, 28, 73, 0.505),
+    rgba(104, 73, 15, 0.505)
+  );
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.upd-text {
+  color: #fff;
+  margin: 0 auto;
+  display: flex;
+  max-width: 200px;
 }
