@@ -104,12 +104,14 @@ img {
   align-items: center;
 }
 .atributes-item {
+  align-items: center;
 }
 
 .header-link {
   color: white;
   display: flex;
   transition: color 0.3s ease;
+  align-items: center;
 }
 
 .header-link:hover,
@@ -154,23 +156,16 @@ img {
 
 /* hero */
 .main-title {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  border: 1px solid orange;
-  border-radius: 10px;
 }
 .heroes {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.21;
-  letter-spacing: -0.03em;
-  color: #fff;
-  margin: 0 auto;
-
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 /* Universal */
 .universal-subtitle {
@@ -260,6 +255,8 @@ img {
 
 .hero-subtitle {
   display: flex;
+  font-size: large;
+  font-weight: 500;
 
   width: calc(100% - 20px);
   color: white;
@@ -267,6 +264,12 @@ img {
     1px 1px 0 #000;
   white-space: nowrap;
   margin-left: 30px;
+  transition: color 0.3s ease;
+}
+
+.hero-subtitle:hover,
+.hero-subtitle:active {
+  color: orange;
 }
 
 .hero-img {
