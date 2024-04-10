@@ -63,38 +63,21 @@ img {
 }
 
 .logo {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.11;
-  letter-spacing: 0.1em;
-
   display: flex;
-  align-items: center;
-  gap: 4px;
-  color: #ffffff;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-  border: 2px solid black;
+
   padding: 10px;
-  border-radius: 30px;
-  transition: border 0.3s ease;
+  margin-left: 40px;
 }
 
 .logo:hover,
 .logo:focus,
 .logo:active {
-  border: 2px solid orange;
-}
-
-.span {
-  color: orange;
 }
 
 .atributes {
   display: flex;
   gap: 24px;
-  margin-left: 220px;
-  margin-right: 155px;
+
   background: linear-gradient(to right, rgb(55, 55, 61), rgb(17, 17, 17));
   border: 1px solid orange;
   padding: 10px;
@@ -102,6 +85,7 @@ img {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   align-items: center;
+  margin-left: 470px;
 }
 .atributes-item {
   align-items: center;
@@ -121,7 +105,8 @@ img {
 }
 
 .twitch {
-  margin-left: 75px;
+  margin-left: auto;
+  margin-right: 40px;
   display: flex;
 
   display: flex;
